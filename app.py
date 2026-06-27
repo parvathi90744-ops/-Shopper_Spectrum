@@ -9,7 +9,7 @@ st.markdown("### Customer Segmentation using K-Means Clustering")
 st.markdown("---")
 
 # Load customer segments
-rfm = pd.read_csv("Data/customer_segments.csv")
+rfm = pd.read_csv("customer_segments.csv")
 st.write("### Dataset Information")
 
 col1, col2 = st.columns(2)
